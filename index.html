@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({'event': 'roshni'});
+       dataLayer.push({
+           pageCategory:'Home',
+           buttonClick:'Learn More'  
+       });
+          dataLayer.push({
+              'event':'PageView',
+              'PageTitle':'ContactUs';
+          });
+    </script>
+    
+    
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -28,14 +42,7 @@ src="https://www.facebook.com/tr?id=750639465858191&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
     
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        dataLayer.push({'event': 'roshni'});
-       dataLayer.push({
-           pageCategory:'Home',
-           buttonClick:'Learn More'  
-       });
-    </script>
+
     
     
     <!-- Required meta tags -->
@@ -111,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <p class="lead">
-              <a class="btn btn-primary btn-lg" href="https://www.google.com/maps/place/SitaRam+Stationers/@28.5684963,77.2408757,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd309eebec89:0x25106b00b8ccb6b3!8m2!3d28.5684963!4d77.2430644" target="-blank" role="button">Learn more</a>
+              <a class="btn btn-primary btn-lg" href="https://www.google.com/maps/place/SitaRam+Stationers/@28.5684963,77.2408757,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd309eebec89:0x25106b00b8ccb6b3!8m2!3d28.5684963!4d77.2430644" target="-blank" role="button" onclick="dataLayer.push({'event': 'Learn'});">Learn more</a>
             </p>
           </div>
     </div>
